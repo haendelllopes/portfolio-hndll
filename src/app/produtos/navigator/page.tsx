@@ -201,7 +201,26 @@ export default function NavigatorPage() {
               <p className="text-lg text-gray-700 leading-relaxed">
                 Funcionalidades mais complexas e integrações profundas foram deixadas fora do MVP, garantindo foco, velocidade e aprendizado real antes de escalar.
               </p>
+              <p className="text-lg text-gray-700 leading-relaxed mt-6">
+                As decisões apresentadas foram consolidadas e validadas na apresentação final do projeto para a banca do curso IA Product Leaders da Tera.
+              </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Imagem do MVP */}
+      <section className="bg-white pt-8 pb-16 md:pt-12 md:pb-20">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <img 
+              src="/images/navigator-dashboard.png" 
+              alt="Dashboard Insights do Navî do Navigator MVP mostrando métricas, gráficos e tabelas de onboarding" 
+              className="w-full"
+            />
+            <p className="text-sm text-gray-600 mt-4">
+              Visão do MVP do Navigator, utilizado como ambiente de demonstração para validar a jornada de onboarding, a atuação do agente Navi e os insights gerados para a liderança.
+            </p>
           </div>
         </div>
       </section>
@@ -269,6 +288,16 @@ export default function NavigatorPage() {
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 A colaboração com o grupo foi fundamental para validação de hipóteses, discussões estratégicas e apresentação do projeto à banca.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mt-6">
+                <a 
+                  href="https://www.linkedin.com/in/haendell-lopes/overlay/1763212633270/single-media-viewer/?profileId=ACoAAASKmMMBZgkJQYEX3ebpJgV7SSXbPfuU0ig" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-900 transition-colors underline decoration-gray-300 hover:decoration-gray-600"
+                >
+                  📄 Apresentação do projeto (pitch final)
+                </a>
               </p>
             </div>
           </div>
