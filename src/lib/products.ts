@@ -7,7 +7,7 @@ export interface Product {
 export const products: Product[] = [
   {
     name: 'Navigator',
-    description: 'Resolve a complexidade de navegação e orientação em ambientes internos, oferecendo localização precisa sem depender de GPS.',
+    description: 'Onboarding estruturado para reduzir incerteza, acelerar autonomia e dar visibilidade à liderança desde o primeiro dia.',
     status: 'MVP'
   },
   {

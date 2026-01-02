@@ -1,6 +1,19 @@
 export default function NavigatorPage() {
   return (
     <main className="flex min-h-screen flex-col">
+      {/* Breadcrumb */}
+      <nav className="bg-white border-b border-gray-100 py-4 md:py-6">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-4xl">
+            <a href="#produtos" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+              Projetos
+            </a>
+            <span className="text-sm text-gray-400 mx-2">/</span>
+            <span className="text-sm text-gray-900">Navigator</span>
+          </div>
+        </div>
+      </nav>
+
       {/* Hero do Case */}
       <section className="bg-gradient-to-br from-[#fafafa] to-[#f5f5f5] py-24 md:py-32">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
@@ -16,10 +29,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* Contexto */}
-      <section className="bg-white py-16 md:py-20">
+      <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
               Contexto
             </h2>
 
@@ -79,10 +92,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* O Problema */}
-      <section className="bg-[#f9fafb] py-16 md:py-20">
+      <section className="bg-[#f9fafb] pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
               O Problema
             </h2>
             <div className="space-y-6">
@@ -109,10 +122,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* Hipótese de Produto */}
-      <section className="bg-[#f9fafb] py-16 md:py-20">
+      <section className="bg-[#f9fafb] pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
               Hipótese de Produto
             </h2>
             <div className="space-y-6">
@@ -131,10 +144,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* Decisões-chave (uso de IA) */}
-      <section className="bg-white py-16 md:py-20">
+      <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
               Decisões-chave (uso de IA)
             </h2>
             <div className="space-y-6">
@@ -167,10 +180,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* Execução */}
-      <section className="bg-white py-16 md:py-20">
+      <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
               Execução
             </h2>
             <div className="space-y-6">
@@ -194,10 +207,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* Aprendizados */}
-      <section className="bg-[#f9fafb] py-16 md:py-20">
+      <section className="bg-[#f9fafb] pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
               Aprendizados
             </h2>
             <div className="space-y-6">
