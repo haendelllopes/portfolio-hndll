@@ -1,7 +1,7 @@
 export default function Manifesto() {
   return (
-    <section className="bg-[#f9fafb] py-32 md:py-40">
-      <div className="container mx-auto px-4">
+    <section className="bg-[#f9fafb] py-32 md:py-48">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto">
           <div className="space-y-10 text-lg text-gray-700 leading-[1.75]">
             <p>
