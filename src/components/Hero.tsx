@@ -12,7 +12,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#produtos"
-              className="px-10 py-4 bg-[#0a0a0a] text-white font-medium rounded-lg hover:bg-[#1a1a1a] transition-all duration-300 ease-in-out"
+              className="px-10 py-4 bg-[#0a0a0a] text-white font-medium rounded-lg hover:bg-[#1a1a1a] hover:scale-[1.02] hover:shadow-lg transition-all duration-300 ease-in-out"
             >
               Ver produtos
             </a>
@@ -20,7 +20,7 @@ export default function Hero() {
               href="https://www.linkedin.com/in/haendell-lopes/"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-10 py-4 border-2 border-[#0a0a0a] text-[#0a0a0a] font-medium rounded-lg hover:bg-[#0a0a0a] hover:text-white transition-all duration-300 ease-in-out"
+              className="px-10 py-4 border-2 border-[#0a0a0a] text-[#0a0a0a] font-medium rounded-lg hover:bg-[#0a0a0a] hover:text-white hover:scale-[1.02] hover:shadow-lg transition-all duration-300 ease-in-out"
             >
               LinkedIn
             </a>

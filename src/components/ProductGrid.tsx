@@ -8,7 +8,7 @@ export default function ProductGrid() {
           {products.map((product) => (
             <div
               key={product.name}
-              className="bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 ease-in-out"
+              className="bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer"
             >
               <h3 className="text-2xl md:text-3xl font-bold text-[#0a0a0a] mb-4">
                 {product.name}
@@ -16,7 +16,7 @@ export default function ProductGrid() {
               <p className="text-base text-gray-600 mb-6 leading-relaxed">
                 {product.description}
               </p>
-              <span className="inline-block px-4 py-2 text-sm font-medium bg-gray-100 text-gray-700 rounded-full">
+              <span className="inline-block px-4 py-2 text-sm font-medium bg-gray-100 text-gray-700 rounded-full transition-opacity duration-300 ease-in-out hover:opacity-80">
                 {product.status}
               </span>
             </div>
