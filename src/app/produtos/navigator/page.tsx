@@ -16,10 +16,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* Contexto */}
-      <section className="bg-white py-24 md:py-32">
+      <section className="bg-white py-16 md:py-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
               Contexto
             </h2>
 
@@ -79,10 +79,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* O Problema */}
-      <section className="bg-[#f9fafb] py-24 md:py-32">
+      <section className="bg-[#f9fafb] py-16 md:py-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
               O Problema
             </h2>
             <div className="space-y-6">
@@ -109,10 +109,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* Hipótese de Produto */}
-      <section className="bg-[#f9fafb] py-24 md:py-32">
+      <section className="bg-[#f9fafb] py-16 md:py-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
               Hipótese de Produto
             </h2>
             <div className="space-y-6">
@@ -131,10 +131,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* Decisões-chave (uso de IA) */}
-      <section className="bg-white py-24 md:py-32">
+      <section className="bg-white py-16 md:py-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
               Decisões-chave (uso de IA)
             </h2>
             <div className="space-y-6">
@@ -167,10 +167,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* Execução */}
-      <section className="bg-white py-24 md:py-32">
+      <section className="bg-white py-16 md:py-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
               Execução
             </h2>
             <div className="space-y-6">
@@ -194,10 +194,10 @@ export default function NavigatorPage() {
       </section>
 
       {/* Aprendizados */}
-      <section className="bg-[#f9fafb] py-24 md:py-32">
+      <section className="bg-[#f9fafb] py-16 md:py-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-8 leading-tight">
               Aprendizados
             </h2>
             <div className="space-y-6">
