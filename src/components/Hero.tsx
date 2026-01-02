@@ -9,17 +9,17 @@ export default function Hero() {
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl leading-relaxed">
             Conecto visão de produto, inteligência artificial e contexto de negócio para gerar impacto real.
           </p>
-          <div className="flex flex-col gap-4 mb-12 md:mb-16">
-            <p className="text-base md:text-lg text-gray-700 font-normal">
+          <div className="flex flex-col gap-6 md:gap-8 mb-12 md:mb-16">
+            <p className="text-xl md:text-2xl font-semibold text-[#0a0a0a] leading-tight">
               IA não é o objetivo. É o caminho.
             </p>
-            <p className="text-base md:text-lg text-gray-700 font-normal">
+            <p className="text-lg md:text-xl font-medium text-gray-800 leading-tight">
               Produto vem antes da tecnologia.
             </p>
-            <p className="text-base md:text-lg text-gray-700 font-normal">
+            <p className="text-lg md:text-xl font-normal text-gray-700 leading-tight">
               Boas decisões nascem de contexto, dados e aprendizado contínuo.
             </p>
-            <p className="text-base md:text-lg text-gray-800 font-medium">
+            <p className="text-xl md:text-2xl font-bold text-[#0a0a0a] leading-tight">
               Valor real supera hype. Sempre.
             </p>
           </div>
