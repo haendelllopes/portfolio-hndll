@@ -85,7 +85,25 @@ export default function NavigatorPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
               O Problema
             </h2>
-            {/* Conteúdo a ser preenchido */}
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O onboarding falha não por falta de esforço, mas por falta de estrutura.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                A pesquisa realizada com gestores, profissionais de RH e colaboradores evidenciou gargalos recorrentes: demora no acesso a ferramentas e informações, sobrecarga cognitiva nos primeiros dias, falta de clareza sobre papéis e dependência excessiva de processos manuais.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                Esses gargalos geram impactos silenciosos, porém relevantes:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>aumento do tempo até a produtividade plena (até 90 dias)</li>
+                <li>sobrecarga de gestores e equipes de apoio</li>
+                <li>risco de desengajamento precoce e deterioração da experiência cultural</li>
+              </ul>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O custo não é apenas operacional. É humano, cultural e financeiro.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -97,7 +115,17 @@ export default function NavigatorPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
               Hipótese de Produto
             </h2>
-            {/* Conteúdo a ser preenchido */}
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Se o onboarding fosse tratado como uma jornada estruturada, personalizada e acompanhada, em vez de um conjunto de tarefas soltas, seria possível reduzir fricções iniciais, acelerar a autonomia do colaborador e dar visibilidade real à liderança.
+              </p>
+              <p className="text-xl font-bold text-[#0a0a0a] leading-relaxed border-l-4 border-gray-300 pl-6 italic">
+                Ao combinar orientação contínua, personalização e apoio proativo, o onboarding deixa de ser um momento de sobrevivência e passa a ser um acelerador de impacto.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Essa hipótese está diretamente alinhada aos achados da pesquisa e à proposta apresentada à banca.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -109,7 +137,31 @@ export default function NavigatorPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
               Decisões-chave (uso de IA)
             </h2>
-            {/* Conteúdo a ser preenchido */}
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                A inteligência artificial foi incorporada ao Navigator como facilitadora da experiência de onboarding, e não como elemento central do produto.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                A principal decisão foi utilizar IA para organizar informações, contextualizar respostas e reduzir dúvidas recorrentes, apoiando o colaborador ao longo da jornada sem substituir interações humanas.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O agente Navi foi desenhado para operar com conteúdo curado e contextualizado, evitando respostas genéricas ou improvisadas. Essa decisão priorizou clareza, confiabilidade e consistência da experiência, mesmo que isso implicasse menor grau de automação.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                Alguns trade-offs foram assumidos conscientemente:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>Menor foco em automação ampla e genérica</li>
+                <li>Maior controle sobre conteúdo, narrativa e tom das interações</li>
+                <li>Uso da IA como apoio à orientação estruturada, não como substituto de gestores ou mentores</li>
+              </ul>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                A IA também foi utilizada para analisar o sentimento ao longo das interações, gerando alertas para a liderança e apoiando decisões proativas — como ajustes de trilhas e intervenções humanas — sempre com o objetivo de reduzir fricções e acelerar a autonomia do colaborador.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O princípio que guiou essas decisões foi simples: boa experiência de onboarding exige contexto, e contexto não pode ser automatizado sem critério.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -121,7 +173,22 @@ export default function NavigatorPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
               Execução
             </h2>
-            {/* Conteúdo a ser preenchido */}
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                A execução priorizou um MVP capaz de demonstrar valor rapidamente, com foco nos primeiros 90 dias do colaborador.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                As decisões de escopo foram intencionais:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>estruturar trilhas de onboarding personalizadas por papel</li>
+                <li>centralizar informações críticas em um único ponto de acesso</li>
+                <li>apoiar gestores com visibilidade e alertas, sem aumentar carga operacional</li>
+              </ul>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Funcionalidades mais complexas e integrações profundas foram deixadas fora do MVP, garantindo foco, velocidade e aprendizado real antes de escalar.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -133,7 +200,20 @@ export default function NavigatorPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
               Aprendizados
             </h2>
-            {/* Conteúdo a ser preenchido */}
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O principal aprendizado foi que onboarding é mais sobre orientação do que sobre informação.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                A pesquisa mostrou que a presença de um mentor ou padrinho é o fator mais valorizado pelos colaboradores, reforçando que a tecnologia não substitui relações humanas — ela as potencializa.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Outro aprendizado relevante foi a percepção de que não existe um tempo ideal único de onboarding. Cada colaborador possui ritmo, contexto e necessidades diferentes, o que reforçou a importância de personalização adaptativa desde o início.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Por fim, ficou claro que decisões boas de produto surgem quando IA é usada para reduzir fricção e dar contexto, e não para automatizar indiscriminadamente.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -154,6 +234,28 @@ export default function NavigatorPage() {
               </p>
               <p>
                 <span className="font-semibold text-gray-900">Foco:</span> Estrutura, clareza e experiência
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Colaboração */}
+      <section className="bg-white py-24 md:py-32">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#0a0a0a] mb-8 leading-tight">
+              Colaboração
+            </h3>
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Este projeto foi desenvolvido como trabalho de conclusão do curso de IA Product Leaders da Tera.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Atuei como responsável pela concepção do produto, definição das regras de negócio, desenho da experiência e desenvolvimento do protótipo funcional, incluindo todo o processo de vibe coding.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                A colaboração com o grupo foi fundamental para validação de hipóteses, discussões estratégicas e apresentação do projeto à banca.
               </p>
             </div>
           </div>
