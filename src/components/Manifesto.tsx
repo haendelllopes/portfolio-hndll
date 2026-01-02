@@ -3,9 +3,9 @@ export default function Manifesto() {
     <section className="bg-[#f9fafb] py-32 md:py-48">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto">
-          <div className="space-y-16">
+          <div className="space-y-12">
             <div>
-              <p className="text-2xl md:text-3xl font-bold text-[#0a0a0a] mb-6 leading-tight">
+              <p className="text-2xl md:text-3xl font-bold text-[#0a0a0a] mb-4 leading-tight">
                 Inteligência artificial não é o objetivo. É o caminho.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -13,7 +13,7 @@ export default function Manifesto() {
               </p>
             </div>
 
-            <div className="border-t border-gray-200 pt-12">
+            <div className="border-t border-gray-200 pt-10">
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
                 O que realmente importa é o <span className="font-bold text-[#0a0a0a]">pensamento de produto</span>. Entender profundamente o problema, o contexto em que ele existe, as pessoas que enfrentam esse desafio e o valor que uma solução pode entregar.
               </p>
@@ -22,7 +22,7 @@ export default function Manifesto() {
               </p>
             </div>
 
-            <div className="border-t border-gray-200 pt-12">
+            <div className="border-t border-gray-200 pt-10">
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
                 Cada decisão importa. Cada escolha técnica, cada feature priorizada, cada métrica acompanhada.
               </p>
@@ -31,8 +31,8 @@ export default function Manifesto() {
               </p>
             </div>
 
-            <div className="border-t border-gray-200 pt-12">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <div className="border-t border-gray-200 pt-10">
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
                 Construir produtos com IA não é sobre usar a tecnologia mais nova. É sobre usar a ferramenta certa, no momento certo, para resolver o problema certo.
               </p>
               <p className="text-xl font-semibold text-[#0a0a0a] leading-relaxed">

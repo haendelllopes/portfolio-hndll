@@ -1,15 +1,15 @@
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-br from-[#fafafa] to-[#f5f5f5] py-32 md:py-48">
+    <section className="bg-gradient-to-br from-[#fafafa] to-[#f5f5f5] py-24 md:py-32">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="max-w-4xl">
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-[#0a0a0a] mb-10 leading-[1.1] tracking-tight">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-[#0a0a0a] mb-8 leading-[1.1] tracking-tight">
             AI Product Leader focado em produtos com inteligência artificial aplicada a problemas reais.
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl leading-relaxed">
+          <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-2xl leading-relaxed">
             Conecto visão de produto, inteligência artificial e contexto de negócio para gerar impacto real.
           </p>
-          <div className="flex flex-col gap-6 md:gap-8 mb-12 md:mb-16">
+          <div className="flex flex-col gap-4 md:gap-5 mb-10">
             <p className="text-xl md:text-2xl font-semibold text-[#0a0a0a] leading-tight">
               IA não é o objetivo. É o caminho.
             </p>
