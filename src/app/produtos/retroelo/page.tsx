@@ -22,7 +22,10 @@ export default function RetroeloPage() {
               Retroelo
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-3xl">
-              Resolve a análise retrospectiva de processos e decisões, facilitando aprendizado contínuo através de retrospectivas estruturadas.
+              Facilitador inteligente de retrospectivas para líderes de equipes
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mt-4">
+              Produto em experimentação, com conceito funcional e hipótese ativa.
             </p>
           </div>
         </div>
@@ -36,55 +39,24 @@ export default function RetroeloPage() {
               Contexto
             </h2>
 
-            {/* Bloco 1: Necessidade de aprendizado contínuo */}
-            <div className="mb-12">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Equipes e organizações frequentemente enfrentam o desafio de transformar experiências passadas em aprendizado efetivo.
-                É comum que retrospectivas e análises de processos sejam realizadas de forma esporádica ou superficial, sem estrutura que permita capturar insights valiosos e aplicá-los em melhorias concretas.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Quando a reflexão não acontece de forma estruturada, surgem perdas silenciosas:
-              </p>
-              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4">
-                <li>decisões repetidas sem aprendizado</li>
-                <li>padrões de erro que se perpetuam</li>
-                <li>conhecimento tácito que não é documentado</li>
-                <li>dificuldade de identificar o que realmente funcionou</li>
-              </ul>
-            </div>
-
-            {/* Bloco 2: Desafio da documentação */}
-            <div className="mb-12 border-t border-gray-200 pt-12">
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Do outro lado, gestores e líderes lidam com:
-              </p>
-              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4">
-                <li>falta de estrutura para conduzir retrospectivas efetivas</li>
-                <li>dificuldade de rastrear padrões ao longo do tempo</li>
-                <li>ausência de conexão entre retrospectivas e ações práticas</li>
-              </ul>
-            </div>
-
-            {/* Bloco 3: Origem do Retroelo */}
-            <div className="mb-12 border-t border-gray-200 pt-12">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Esse cenário de necessidade de aprendizado estruturado deu origem ao Retroelo.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                A proposta foi clara: criar uma ferramenta que estruturasse o processo de retrospectiva, facilitando a captura de aprendizados, a identificação de padrões e a transformação de insights em ações concretas.
-              </p>
-            </div>
-
-            {/* Descrição do Produto */}
-            <div className="border-t border-gray-200 pt-12">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                O Retroelo foi concebido como uma plataforma de análise retrospectiva, onde equipes podem documentar processos, decisões e resultados de forma estruturada.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                A ferramenta orienta o processo de retrospectiva através de frameworks estruturados, facilitando a identificação do que funcionou, do que não funcionou e do que pode ser melhorado.
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O Retroelo surgiu a partir da minha vivência como Product Owner, acompanhando retrospectivas recorrentes em diferentes equipes.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Além disso, o Retroelo permite rastrear padrões ao longo do tempo, conectando retrospectivas anteriores e identificando tendências que podem informar decisões futuras.
+                O problema não estava na falta de cerimônias ou na qualidade das discussões, mas no que acontecia depois.
+                Ações e lições aprendidas eram registradas, mas acabavam esquecidas, escanteadas ou diluídas no dia a dia.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                Além disso, era recorrente a dificuldade de líderes em:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>estruturar retrospectivas de forma consistente</li>
+                <li>conduzir a cerimônia com segurança</li>
+                <li>acompanhar planos de ação quando gerenciavam mais de uma equipe</li>
+              </ul>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Ferramentas existentes (EasyRetro, planilhas, apresentações) ajudavam a registrar o momento, mas não fechavam o ciclo de melhoria contínua.
               </p>
             </div>
           </div>
@@ -100,22 +72,19 @@ export default function RetroeloPage() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                O aprendizado organizacional falha não por falta de experiência, mas por falta de estrutura para capturar e aplicar insights.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                A prática de retrospectivas muitas vezes é realizada de forma ad-hoc, sem frameworks consistentes, sem rastreamento de padrões e sem conexão clara entre reflexão e ação.
+                O problema central não é executar retrospectivas, mas garantir continuidade e aprendizado real.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Esses gargalos geram impactos silenciosos, porém relevantes:
+                Na prática, o que se observava era:
               </p>
               <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
-                <li>repetição de erros que poderiam ser evitados</li>
-                <li>perda de conhecimento valioso de experiências passadas</li>
-                <li>dificuldade de identificar o que realmente funciona</li>
-                <li>falta de conexão entre retrospectivas e melhorias práticas</li>
+                <li>retrospectivas bem conduzidas que não geravam mudança</li>
+                <li>planos de ação sem acompanhamento efetivo</li>
+                <li>líderes sem uma visão consolidada das pendências entre equipes</li>
+                <li>excesso de esforço operacional para manter tudo "vivo" manualmente</li>
               </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                O custo não é apenas operacional. É de oportunidade, eficiência e crescimento contínuo.
+                Não se tratava de falta de ferramenta, mas de falta de suporte ao líder no pós-cerimônia.
               </p>
             </div>
           </div>
@@ -131,76 +100,158 @@ export default function RetroeloPage() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Se as retrospectivas fossem tratadas como um processo estruturado, rastreável e conectado, em vez de eventos isolados, seria possível transformar experiências em aprendizado efetivo e melhorias contínuas.
+                A hipótese central do Retroelo foi:
               </p>
               <p className="text-xl font-bold text-[#0a0a0a] leading-relaxed border-l-4 border-gray-300 pl-6 italic">
-                Ao combinar estrutura, rastreamento e conexão entre retrospectivas, o aprendizado deixa de ser esporádico e passa a ser sistemático e aplicável.
+                Ser o braço direito do líder no processo de retrospectivas, indo além da organização de cards e planos de ação.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Essa hipótese está diretamente alinhada à necessidade de organizações e equipes que buscam melhorar continuamente através do aprendizado estruturado.
+                A ideia não era criar mais uma ferramenta de retrospectiva, mas um facilitador contínuo, capaz de apoiar o líder:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>antes da retrospectiva (estrutura)</li>
+                <li>durante a cerimônia (condução)</li>
+                <li>e principalmente depois (acompanhamento e engajamento)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Diferencial proposto */}
+      <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
+              Diferencial proposto
+            </h2>
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O principal diferencial imaginado estava no uso de inteligência artificial como apoio à liderança, não como automação da cerimônia.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                A IA atuaria para:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>analisar as colocações dos participantes</li>
+                <li>identificar padrões e sentimentos implícitos</li>
+                <li>gerar insumos qualitativos para o líder</li>
+                <li>apoiar o engajamento do time ao longo do tempo</li>
+                <li>antecipar sinais de insatisfação ou desgaste</li>
+              </ul>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Nesse modelo, o Retroelo deixaria de ser apenas um organizador e passaria a atuar como um agente próximo do líder.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Decisões-chave (uso de IA) */}
+      {/* Decisões-chave de produto */}
       <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
-              Decisões-chave (uso de IA)
+              Decisões-chave de produto
+            </h2>
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  IA como facilitador, não protagonista
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  A inteligência artificial foi pensada como suporte à interpretação e acompanhamento, mantendo a decisão sempre sob responsabilidade humana.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Corte consciente de escopo inicial
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  A análise de sentimentos, embora central na visão, foi deixada de fora no início para tornar o produto viável para teste.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Não centralizar tudo em um único produto
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Ideias como executar reuniões, gravar encontros, transcrever, resumir e integrar métricas externas foram deliberadamente descartadas.
+                  O escopo seria grande demais para desenvolvimento individual.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Aceitar o risco da validação tardia
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Mesmo sem adesão suficiente em pesquisas iniciais, a decisão de seguir foi consciente, baseada na recorrência observada do problema.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Solução construída (estado atual) */}
+      <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
+              Solução construída (estado atual)
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                A inteligência artificial foi incorporada ao Retroelo como facilitadora da análise e identificação de padrões, e não como substituto do processo de reflexão humana.
+                Atualmente, o Retroelo existe como produto conceito funcional, disponível em:
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                A principal decisão foi utilizar IA para identificar padrões recorrentes entre retrospectivas, sugerir conexões entre eventos passados e presentes, e facilitar a descoberta de insights que podem não ser imediatamente óbvios.
+                <a 
+                  href="http://retroelo.io" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-900 transition-colors underline decoration-gray-300 hover:decoration-gray-600"
+                >
+                  👉 http://retroelo.io
+                </a>
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                A IA foi desenhada para operar sobre dados estruturados de retrospectivas, evitando interpretações genéricas ou fora de contexto. Essa decisão priorizou precisão, relevância e utilidade prática, mesmo que isso implicasse menor grau de automação.
+                A solução permite estruturar e executar retrospectivas, com foco em organização e acompanhamento, ainda em evolução.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Alguns trade-offs foram assumidos conscientemente:
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O produto não está fechado nem validado em larga escala. Ele representa:
               </p>
               <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
-                <li>Menor foco em automação completa do processo de retrospectiva</li>
-                <li>Maior ênfase em estrutura e rastreabilidade</li>
-                <li>Uso da IA como apoio à análise, não como substituto da reflexão humana</li>
+                <li>uma hipótese ativa</li>
+                <li>um conceito em experimentação</li>
+                <li>uma base para aprendizado contínuo</li>
               </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                A IA também foi utilizada para conectar retrospectivas ao longo do tempo, identificando tendências e padrões que podem informar decisões futuras, sempre com o objetivo de tornar o aprendizado mais efetivo e aplicável.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                O princípio que guiou essas decisões foi simples: boa retrospectiva exige reflexão humana, e IA pode amplificar essa reflexão através de estrutura e conexão.
+                A execução da retrospectiva isoladamente não é o diferencial — o valor está no que pode ser construído entre ciclos.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Execução */}
-      <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
+      {/* Limitações e riscos assumidos */}
+      <section className="bg-[#f9fafb] pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
-              Execução
+              Limitações e riscos assumidos
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                A execução priorizou um experimento capaz de demonstrar valor rapidamente, com foco na estruturação do processo de retrospectiva.
+                O produto ainda não passou por validação consistente em uso real
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                As decisões de escopo foram intencionais:
-              </p>
-              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
-                <li>estruturar frameworks de retrospectiva reutilizáveis</li>
-                <li>facilitar a captura de insights de forma organizada</li>
-                <li>permitir rastreamento de padrões ao longo do tempo</li>
-              </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Funcionalidades mais complexas e integrações profundas foram deixadas fora do experimento inicial, garantindo foco, velocidade e aprendizado real antes de escalar.
+                O maior risco atual é a continuidade de desenvolvimento, dado o nível de complexidade técnica e o contexto de vibe coding
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Existe uma tensão clara entre visão ambiciosa e capacidade de execução individual
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Esses riscos são conhecidos e assumidos conscientemente.
               </p>
             </div>
           </div>
@@ -216,38 +267,28 @@ export default function RetroeloPage() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                O principal aprendizado foi que retrospectivas efetivas dependem mais de estrutura e consistência do que de ferramentas complexas.
+                Retrospectiva sem acompanhamento vira ritual vazio
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                A experiência mostrou que equipes valorizam processos claros e rastreáveis, reforçando que a tecnologia deve facilitar a reflexão, não complicá-la.
+                O valor está no ciclo, não no evento.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Outro aprendizado relevante foi a percepção de que conexão entre retrospectivas ao longo do tempo é fundamental para identificar padrões e tendências que informam decisões futuras.
+                IA em produtos humanos exige cuidado
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Por fim, ficou claro que decisões boas de produto surgem quando IA é usada para amplificar a reflexão humana, e não para substituí-la.
+                Análise de sentimento é poderosa, mas sensível. Priorizar confiança e clareza é mais importante que sofisticação técnica.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Status Atual */}
-      <section className="bg-[#f9fafb] py-24 md:py-32">
-        <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
-              Status Atual
-            </h2>
-            <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
-              <p>
-                <span className="font-semibold text-gray-900">Estado:</span> Experimento
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Escopo é o maior inimigo de produtos individuais
               </p>
-              <p>
-                <span className="font-semibold text-gray-900">Objetivo:</span> Exploração e aprendizado
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Ter visão ampla é importante, mas saber onde parar é essencial.
               </p>
-              <p>
-                <span className="font-semibold text-gray-900">Foco:</span> Estrutura, clareza e rastreabilidade
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Nem todo produto precisa virar empresa para gerar aprendizado
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O Retroelo ensinou mais sobre liderança, facilitação e decisão de produto do que muitas soluções "finalizadas".
               </p>
             </div>
           </div>
@@ -263,13 +304,24 @@ export default function RetroeloPage() {
             </h3>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Atuei de forma individual e ponta a ponta na concepção, desenvolvimento e execução do Retroelo.
+                Produto desenvolvido de forma integralmente individual, com atuação ponta a ponta na identificação do problema, formulação da hipótese, decisões de escopo, concepção da solução, desenvolvimento do produto conceito e consolidação dos aprendizados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Encerramento */}
+      <section className="bg-[#f9fafb] py-24 md:py-32">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O Retroelo não é apresentado como um produto pronto, mas como uma tese ativa de produto, construída a partir de um problema real e ainda em evolução.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Fui responsável pela definição do problema, desenho da solução, criação dos frameworks de retrospectiva, desenvolvimento do protótipo e validação do conceito.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                A atuação individual permitiu controle total sobre a visão do produto, decisões de design e implementação, garantindo consistência e alinhamento com os objetivos desde o início até a execução.
+                Ele representa uma etapa importante do meu aprendizado como líder de produto:
+                equilibrar ambição, escopo, uso responsável de IA e limites de execução.
               </p>
             </div>
           </div>
