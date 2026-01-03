@@ -7,27 +7,27 @@ export interface Product {
 export const products: Product[] = [
   {
     name: 'Navigator',
-    description: 'Onboarding estruturado para reduzir incerteza, acelerar autonomia e dar visibilidade à liderança desde o primeiro dia.',
+    description: 'Onboarding estruturado para acelerar autonomia e reduzir incertezas no primeiro dia de trabalho.',
     status: 'MVP'
   },
   {
     name: 'WMS Twin Digital',
-    description: 'Resolve a gestão visual e espacial de estoques em armazéns através de representação digital, permitindo visualização tridimensional e suporte à decisão gerencial.',
-    status: 'protótipo'
+    description: 'Visualização 3D de estoque para suporte à decisão gerencial.',
+    status: 'Protótipo'
   },
   {
     name: 'Retroelo',
-    description: 'Facilitador de retrospectivas focado em apoiar líderes no fechamento do ciclo de aprendizado e acompanhamento de ações.',
-    status: 'experimentação'
+    description: 'Facilitador de retrospectivas focado em apoiar líderes no fechamento do ciclo de aprendizado.',
+    status: 'Experimentação'
   },
   {
     name: 'WMS Academy',
-    description: 'Facilitador de onboarding com aprendizado gamificado para formação de consciência operacional em processos logísticos.',
+    description: 'Onboarding gamificado para formação de consciência operacional em logística.',
     status: 'MVP'
   },
   {
     name: 'Gestaelo',
-    description: 'Acompanhamento digital da gestação com foco em organização, clareza e tranquilidade para gestante e família.',
+    description: 'Acompanhamento digital da gestação com foco em organização e tranquilidade.',
     status: 'MVP'
   }
 ]

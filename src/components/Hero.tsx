@@ -4,10 +4,10 @@ export default function Hero() {
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="max-w-4xl">
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-[#0a0a0a] mb-8 leading-[1.1] tracking-tight">
-            AI Product Leader focado em produtos com inteligência artificial aplicada a problemas reais.
+            AI Product Leader construindo produtos com impacto real
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-2xl leading-relaxed">
-            Conecto visão de produto, inteligência artificial e contexto de negócio para gerar impacto real.
+            Conecto visão de produto, contexto de negócio e tecnologia para entregar valor mensurável.
           </p>
           <div className="flex flex-col gap-4 md:gap-5 mb-10">
             <p className="text-xl md:text-2xl font-semibold text-[#0a0a0a] leading-tight">
