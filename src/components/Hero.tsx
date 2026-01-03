@@ -25,7 +25,7 @@ export default function Hero() {
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="#produtos"
+              href="/#produtos"
               className="px-10 py-4 bg-[#0a0a0a] text-white font-medium rounded-lg hover:bg-[#1a1a1a] hover:scale-[1.02] hover:shadow-lg transition-all duration-300 ease-in-out inline-block w-fit"
             >
               Ver produtos

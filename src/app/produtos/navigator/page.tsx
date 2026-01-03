@@ -5,7 +5,7 @@ export default function NavigatorPage() {
       <nav className="bg-white border-b border-gray-100 py-4 md:py-6">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <a href="#produtos" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+            <a href="/#produtos" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
               Projetos
             </a>
             <span className="text-sm text-gray-400 mx-2">/</span>
