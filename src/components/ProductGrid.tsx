@@ -6,7 +6,7 @@ export default function ProductGrid() {
     const routes: Record<string, string> = {
       'Navigator': '/produtos/navigator',
       'Retroelo': '/produtos/retroelo',
-      '3D WMS': '/produtos/3d-wms',
+      'WMS Twin Digital': '/produtos/wms-twin-digital',
       'Gestaelo': '/produtos/gestaelo',
       'WMS Academy': '/produtos/wms-academy'
     }

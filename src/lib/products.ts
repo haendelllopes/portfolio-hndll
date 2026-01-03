@@ -11,8 +11,8 @@ export const products: Product[] = [
     status: 'MVP'
   },
   {
-    name: '3D WMS',
-    description: 'Resolve a gestão visual e espacial de estoques em armazéns, permitindo visualização tridimensional e otimização de espaço.',
+    name: 'WMS Twin Digital',
+    description: 'Resolve a gestão visual e espacial de estoques em armazéns através de representação digital, permitindo visualização tridimensional e suporte à decisão gerencial.',
     status: 'protótipo'
   },
   {
