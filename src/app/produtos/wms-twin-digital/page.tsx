@@ -207,6 +207,25 @@ export default function WmsTwinDigitalPage() {
         </div>
       </section>
 
+      {/* Vídeo de Demonstração */}
+      <section className="bg-white pt-8 pb-16 md:pt-12 md:pb-20">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <video 
+              src="/videos/wms-twin-digital.mp4" 
+              controls 
+              className="w-full"
+              preload="metadata"
+            >
+              Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <p className="text-sm text-gray-600 mt-4">
+              Demonstração técnica do WMS Twin Digital mostrando visualização tridimensional determinística do armazém e sugestões de otimização geradas pelo motor de IA.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Aprendizados */}
       <section className="bg-[#f9fafb] pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
