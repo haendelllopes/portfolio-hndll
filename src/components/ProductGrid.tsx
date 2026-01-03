@@ -2,6 +2,17 @@ import Link from 'next/link'
 import products from '@/lib/products'
 
 export default function ProductGrid() {
+  const getProductRoute = (productName: string): string | null => {
+    const routes: Record<string, string> = {
+      'Navigator': '/produtos/navigator',
+      'Retroelo': '/produtos/retroelo',
+      '3D WMS': '/produtos/3d-wms',
+      'Gestaelo': '/produtos/gestaelo',
+      'WMS Academy': '/produtos/wms-academy'
+    }
+    return routes[productName] || null
+  }
+
   return (
     <section id="produtos" className="bg-white py-32 md:py-48">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
@@ -21,11 +32,13 @@ export default function ProductGrid() {
               </>
             )
 
-            if (product.name === 'Navigator') {
+            const route = getProductRoute(product.name)
+
+            if (route) {
               return (
                 <Link
                   key={product.name}
-                  href="/produtos/navigator"
+                  href={route}
                   className="bg-white rounded-xl p-10 md:p-12 border border-gray-100 hover:border-gray-200 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-in-out cursor-pointer block"
                 >
                   {CardContent}
