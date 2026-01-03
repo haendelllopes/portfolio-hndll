@@ -27,8 +27,8 @@ export const products: Product[] = [
   },
   {
     name: 'Gestaelo',
-    description: 'Resolve a gestão integrada de processos e workflows, centralizando informações e otimizando operações.',
-    status: 'protótipo'
+    description: 'Acompanhamento digital da gestação com foco em organização, clareza e tranquilidade para gestante e família.',
+    status: 'MVP'
   }
 ]
 
