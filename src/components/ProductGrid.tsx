@@ -35,7 +35,7 @@ export default function ProductGrid() {
                       {product.description}
                     </p>
                   </div>
-                  <span className="inline-block px-5 py-2.5 text-sm font-medium bg-gray-100 text-gray-700 rounded-full transition-opacity duration-300 ease-in-out hover:opacity-80">
+                  <span className="inline-block w-fit px-5 py-2.5 text-sm font-medium bg-gray-100 text-gray-700 rounded-full transition-opacity duration-300 ease-in-out hover:opacity-80">
                     {product.status}
                   </span>
                 </Link>
@@ -55,7 +55,7 @@ export default function ProductGrid() {
                     {product.description}
                   </p>
                 </div>
-                <span className="inline-block px-5 py-2.5 text-sm font-medium bg-gray-100 text-gray-700 rounded-full transition-opacity duration-300 ease-in-out hover:opacity-80">
+                <span className="inline-block w-fit px-5 py-2.5 text-sm font-medium bg-gray-100 text-gray-700 rounded-full transition-opacity duration-300 ease-in-out hover:opacity-80">
                   {product.status}
                 </span>
               </div>
