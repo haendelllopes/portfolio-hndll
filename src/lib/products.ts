@@ -17,8 +17,8 @@ export const products: Product[] = [
   },
   {
     name: 'Retroelo',
-    description: 'Resolve a análise retrospectiva de processos e decisões, facilitando aprendizado contínuo através de retrospectivas estruturadas.',
-    status: 'experimento'
+    description: 'Facilitador de retrospectivas focado em apoiar líderes no fechamento do ciclo de aprendizado e acompanhamento de ações.',
+    status: 'experimentação'
   },
   {
     name: 'WMS Academy',
