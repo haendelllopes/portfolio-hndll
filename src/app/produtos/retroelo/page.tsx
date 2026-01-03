@@ -315,6 +315,9 @@ export default function RetroeloPage() {
       <section className="bg-[#f9fafb] py-24 md:py-32">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
+              Encerramento
+            </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
                 O Retroelo não é apresentado como um produto pronto, mas como uma tese ativa de produto, construída a partir de um problema real e ainda em evolução.
