@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Haendell Lopes | AI Product Leader',
-  description: 'Product Owner com foco em Inteligência Artificial aplicada a produtos digitais.',
+  description: 'AI Product Leader com foco em construção de produtos orientados a impacto e uso responsável de inteligência artificial.',
   icons: {
     icon: '/icon.svg',
   },

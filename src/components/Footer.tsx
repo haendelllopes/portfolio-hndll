@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="text-center text-sm text-gray-400">
           <p>
-            Construído com IA, Next.js, TypeScript, Tailwind CSS e Vercel
+            Portfólio de produtos construídos com foco em impacto, contexto e aprendizado.
           </p>
         </div>
       </div>

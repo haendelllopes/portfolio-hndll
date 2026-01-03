@@ -6,7 +6,7 @@ export default function Manifesto() {
           <div className="space-y-12">
             <div>
               <p className="text-2xl md:text-3xl font-bold text-[#0a0a0a] mb-4 leading-tight">
-                Inteligência artificial não é o objetivo. É o caminho.
+                Produto antes da tecnologia
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 A tecnologia mais avançada do mundo não resolve problemas se não estiver conectada a uma visão clara de produto e a necessidades reais de pessoas e negócios.
