@@ -22,7 +22,10 @@ export default function WmsAcademyPage() {
               WMS Academy
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-3xl">
-              Resolve a capacitação e treinamento em sistemas de gestão de armazéns, democratizando conhecimento especializado.
+              Aprendizado operacional gamificado para formação de consciência em operações de WMS
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mt-4">
+              MVP funcional, com jogos simulados focados em processos logísticos essenciais.
             </p>
           </div>
         </div>
@@ -36,55 +39,15 @@ export default function WmsAcademyPage() {
               Contexto
             </h2>
 
-            {/* Bloco 1: Desafio da capacitação */}
-            <div className="mb-12">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Profissionais que trabalham com sistemas de gestão de armazéns frequentemente enfrentam o desafio de adquirir e manter conhecimento especializado.
-                É comum que treinamento e capacitação sejam realizados de forma esporádica ou dependam de conhecimento tácito de profissionais experientes, sem estrutura que permita aprendizado sistemático e democratização do conhecimento.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Quando a capacitação não está estruturada, surgem desafios operacionais:
-              </p>
-              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4">
-                <li>dependência de conhecimento tácito de poucos profissionais</li>
-                <li>dificuldade de escalar conhecimento para novos membros da equipe</li>
-                <li>falta de estrutura para aprendizado contínuo</li>
-                <li>desafios na padronização de práticas e processos</li>
-              </ul>
-            </div>
-
-            {/* Bloco 2: Necessidade de democratização */}
-            <div className="mb-12 border-t border-gray-200 pt-12">
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Do outro lado, organizações e profissionais lidam com:
-              </p>
-              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4">
-                <li>falta de recursos estruturados para capacitação</li>
-                <li>dificuldade de acessar conhecimento especializado</li>
-                <li>ausência de plataformas que facilitem aprendizado contínuo</li>
-              </ul>
-            </div>
-
-            {/* Bloco 3: Origem do WMS Academy */}
-            <div className="mb-12 border-t border-gray-200 pt-12">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Esse cenário de necessidade de capacitação estruturada deu origem ao WMS Academy.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                A proposta foi clara: criar uma plataforma de capacitação que democratizasse conhecimento especializado em sistemas de gestão de armazéns, facilitando aprendizado sistemático e contínuo.
-              </p>
-            </div>
-
-            {/* Descrição do Produto */}
-            <div className="border-t border-gray-200 pt-12">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                O WMS Academy foi concebido como uma plataforma de capacitação em sistemas de gestão de armazéns, onde profissionais podem acessar conteúdo estruturado, prático e aplicável.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                A ferramenta oferece cursos, tutoriais e recursos que cobrem desde conceitos fundamentais até práticas avançadas, permitindo que profissionais adquiram e mantenham conhecimento especializado de forma sistemática.
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O WMS Academy surgiu a partir de uma necessidade comum em produtos de Warehouse Management System (WMS): escalar o entendimento dos processos logísticos básicos para profissionais que atuam em tecnologia, suporte e consultoria.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Além disso, o WMS Academy facilita a democratização do conhecimento, tornando acessível expertise que antes dependia de experiência prática ou treinamento presencial, permitindo que mais profissionais se capacitem e contribuam efetivamente para operações de armazéns.
+                É frequente que pessoas ingressem em contextos de WMS sem vivência prévia em intralogística. Nesses cenários, compreender o que está sendo desenvolvido, atendido ou implantado é fundamental para decisões mais conscientes e alinhadas à operação.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Historicamente, esse aprendizado depende de treinamentos passivos, como vídeos gravados ou materiais estáticos, que muitas vezes são consumidos de forma superficial. Como consequência, o conhecimento básico não se fixa e dúvidas recorrentes continuam surgindo no dia a dia.
               </p>
             </div>
           </div>
@@ -100,22 +63,27 @@ export default function WmsAcademyPage() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                A capacitação em sistemas de gestão de armazéns falha não por falta de necessidade, mas por falta de estrutura e acessibilidade.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Profissionais frequentemente dependem de conhecimento tácito, treinamento esporádico ou experiência prática para adquirir expertise, sem recursos estruturados que permitam aprendizado sistemático e democratização do conhecimento especializado.
+                O problema central não é a ausência de conteúdo, mas a falta de consciência operacional.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Esses gargalos geram impactos operacionais relevantes:
+                Em contextos de WMS, decisões técnicas e operacionais muitas vezes são tomadas sem plena compreensão:
               </p>
               <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
-                <li>dependência de poucos profissionais com conhecimento especializado</li>
-                <li>dificuldade de escalar conhecimento para novos membros</li>
-                <li>falta de padronização de práticas e processos</li>
-                <li>desafios no aprendizado contínuo e atualização de conhecimento</li>
+                <li>do impacto financeiro de erros simples</li>
+                <li>das dependências entre processos</li>
+                <li>das consequências sistêmicas dentro de uma operação logística</li>
+              </ul>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                Isso se reflete em:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>baixa produtividade inicial</li>
+                <li>dependência recorrente de especialistas para dúvidas básicas</li>
+                <li>erros operacionais evitáveis</li>
+                <li>decisões sem priorização adequada de criticidade</li>
               </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                O custo não é apenas de capacitação. É de eficiência, escalabilidade e democratização do conhecimento.
+                Treinamento passivo, isoladamente, não resolve esse tipo de problema.
               </p>
             </div>
           </div>
@@ -131,76 +99,185 @@ export default function WmsAcademyPage() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Se a capacitação em sistemas de gestão de armazéns fosse apoiada por uma plataforma estruturada e acessível, seria possível democratizar conhecimento especializado, facilitar aprendizado sistemático e escalar expertise para mais profissionais.
+                A hipótese central do WMS Academy foi:
               </p>
               <p className="text-xl font-bold text-[#0a0a0a] leading-relaxed border-l-4 border-gray-300 pl-6 italic">
-                Ao combinar estrutura, acessibilidade e conteúdo prático, a capacitação deixa de ser dependente e passa a ser sistemática e escalável.
+                Se expusermos profissionais a cenários simulados que evidenciam as consequências financeiras de decisões operacionais, eles desenvolverão consciência operacional mais rapidamente e reduzirão riscos no ambiente real.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Essa hipótese está diretamente alinhada à necessidade de profissionais e organizações que buscam capacitar equipes e democratizar conhecimento especializado em gestão de armazéns.
+                O produto nasce, portanto, como uma ferramenta de onboarding, com foco em aprendizado ativo e experiência prática.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Decisões-chave (uso de IA) */}
+      {/* Decisões-chave de produto */}
       <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
-              Decisões-chave (uso de IA)
+              Decisões-chave de produto
+            </h2>
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Não ser um LMS tradicional
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  O WMS Academy não foi concebido como plataforma de cursos, certificações ou avaliações formais.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Não ser vídeo-only
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Conteúdo explicativo é importante, mas não substitui vivência prática.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Formato de RPG educacional
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  O aprendizado ocorre por meio de jogos que simulam processos reais de um WMS, expondo o jogador a decisões e consequências.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Escopo deliberadamente limitado
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                  O foco está nos processos básicos de uma operação logística, como:
+                </p>
+                <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                  <li>Recebimento</li>
+                  <li>Armazenagem</li>
+                  <li>Picking (Separação)</li>
+                </ul>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  O objetivo não é ensinar regras de um WMS comercial específico, mas conceitos de mercado: o que é cada processo, sua importância, problemas comuns e impactos na operação como um todo.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Não centralizar funções de RH ou treinamento corporativo
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Integrações com RH, certificações e conteúdos avançados ficaram fora do escopo inicial.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Uso de tecnologia e IA */}
+      <section className="bg-[#f9fafb] pt-12 pb-16 md:pt-16 md:pb-20">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
+              Uso de tecnologia e IA
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                A inteligência artificial foi incorporada ao WMS Academy como facilitadora da personalização de aprendizado e recomendação de conteúdo, e não como substituto do ensino estruturado.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                A principal decisão foi utilizar IA para personalizar trilhas de aprendizado, recomendar conteúdo relevante e adaptar o ritmo de ensino conforme o progresso e necessidades do profissional.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                A IA foi desenhada para operar sobre dados de progresso e preferências de aprendizado, gerando recomendações e personalizações práticas. Essa decisão priorizou relevância, utilidade e aplicabilidade, mesmo que isso implicasse menor grau de automação completa.
+                A inteligência artificial atua como um mentor operacional contextual, não como professor genérico.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Alguns trade-offs foram assumidos conscientemente:
+                Ao final de cada jogo, a IA:
               </p>
               <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
-                <li>Menor foco em automação completa do ensino</li>
-                <li>Maior ênfase em estrutura e conteúdo curado</li>
-                <li>Uso da IA como apoio à personalização, não como substituto do ensino estruturado</li>
+                <li>avalia a pontuação obtida</li>
+                <li>interpreta as decisões tomadas</li>
+                <li>gera feedbacks a partir da perspectiva de um supervisor da área simulada (recebimento, armazenagem ou picking)</li>
               </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                A IA também foi utilizada para analisar padrões de aprendizado, identificando áreas que precisam de mais atenção e sugerindo recursos complementares, sempre com o objetivo de tornar a capacitação mais efetiva e personalizada.
+                A IA não substitui o julgamento humano, mas ajuda a conectar a experiência vivida no jogo com a realidade da operação.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                O princípio que guiou essas decisões foi simples: boa capacitação exige conteúdo estruturado e ensino humano, e IA pode amplificar essa experiência através de personalização e recomendação.
+                Seu papel foi conscientemente delimitado para preservar clareza pedagógica e evitar ruído.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Execução */}
+      {/* Solução construída (estado atual) */}
       <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
-              Execução
+              Solução construída (estado atual)
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                A execução priorizou um MVP capaz de demonstrar valor rapidamente, com foco na estruturação de conteúdo e experiência de aprendizado básica.
+                O WMS Academy existe hoje como um MVP funcional, disponível em:
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                <a 
+                  href="https://wmsacademy.lovable.app" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-900 transition-colors underline decoration-gray-300 hover:decoration-gray-600"
+                >
+                  👉 https://wmsacademy.lovable.app
+                </a>
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                As decisões de escopo foram intencionais:
+                Fluxo atual:
               </p>
               <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
-                <li>estruturar conteúdo em cursos e módulos</li>
-                <li>permitir rastreamento de progresso</li>
-                <li>oferecer experiência de aprendizado básica e acessível</li>
+                <li>Cadastro via e-mail</li>
+                <li>Acesso a um hub central</li>
+                <li>Escolha dos jogos disponíveis</li>
+              </ul>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                Jogos implementados no MVP:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>Recebimento</li>
+                <li>Armazenagem</li>
+                <li>Picking (Separação)</li>
+              </ul>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                Jogos previstos, mas ainda não implementados:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>Reabastecimento de picking</li>
+                <li>Conferência de expedição</li>
+                <li>Inventário</li>
               </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Funcionalidades mais complexas e integrações profundas foram deixadas fora do MVP, garantindo foco, velocidade e aprendizado real antes de escalar.
+                Cada jogo simula decisões reais e expõe o jogador às consequências operacionais e financeiras associadas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Limitações e riscos assumidos */}
+      <section className="bg-[#f9fafb] pt-12 pb-16 md:pt-16 md:pb-20">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
+              Limitações e riscos assumidos
+            </h2>
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O produto ainda exige padronização de fluxos e mecânicas entre os jogos
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Usabilidade de jogos é um desafio contínuo, especialmente sem background específico em game design
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Existe uma disputa natural de foco e priorização em iniciativas educacionais, o que impacta ritmo de evolução
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Por ser desenvolvido via vibe coding, a complexidade técnica tende a crescer conforme o produto evolui
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Esses riscos são conhecidos e fazem parte do estágio atual do produto.
               </p>
             </div>
           </div>
@@ -216,38 +293,19 @@ export default function WmsAcademyPage() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                O principal aprendizado foi que capacitação efetiva depende mais de estrutura e conteúdo prático do que de tecnologia complexa.
+                Aprendizado ativo gera consciência mais rapidamente do que conteúdo passivo
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                A experiência mostrou que profissionais valorizam conteúdo estruturado e aplicável, reforçando que a tecnologia deve facilitar o aprendizado, não complicá-lo.
+                Simular consequências financeiras altera a forma como decisões são tomadas
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Outro aprendizado relevante foi a percepção de que democratização do conhecimento é fundamental para escalar expertise e reduzir dependência de conhecimento tácito.
+                Produtos educacionais exigem foco rigoroso de escopo
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Por fim, ficou claro que decisões boas de produto surgem quando IA é usada para personalizar e amplificar a experiência de aprendizado, e não para substituir ensino estruturado.
+                IA funciona melhor como mentor contextual do que como instrutor genérico
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Status Atual */}
-      <section className="bg-[#f9fafb] py-24 md:py-32">
-        <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-12 leading-tight">
-              Status Atual
-            </h2>
-            <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
-              <p>
-                <span className="font-semibold text-gray-900">Estado:</span> MVP funcional
-              </p>
-              <p>
-                <span className="font-semibold text-gray-900">Objetivo:</span> Exploração e aprendizado
-              </p>
-              <p>
-                <span className="font-semibold text-gray-900">Foco:</span> Estrutura, conteúdo e acessibilidade
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Nem toda iniciativa precisa escalar para gerar aprendizado relevante de produto e liderança
               </p>
             </div>
           </div>
@@ -258,18 +316,31 @@ export default function WmsAcademyPage() {
       <section className="bg-white py-24 md:py-32">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <h3 className="text-2xl md:text-3xl font-bold text-[#0a0a0a] mb-8 leading-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
               Papel e Responsabilidade
-            </h3>
+            </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Atuei de forma individual e ponta a ponta na concepção, desenvolvimento e execução do WMS Academy.
+                Produto desenvolvido de forma 100% individual, com atuação ponta a ponta na identificação do problema, formulação da hipótese, decisões de escopo, concepção da experiência, desenvolvimento do MVP e consolidação dos aprendizados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Encerramento */}
+      <section className="bg-[#f9fafb] py-24 md:py-32">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
+              Encerramento
+            </h2>
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O WMS Academy não se propõe a substituir treinamentos tradicionais, mas a complementar o onboarding com vivência prática e formação de consciência operacional.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Fui responsável pela definição do problema, desenho da solução, estruturação de conteúdo, desenvolvimento da plataforma e validação do conceito.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                A atuação individual permitiu controle total sobre a visão do produto, decisões de conteúdo e design, garantindo consistência e alinhamento com os objetivos desde o início até a execução.
+                Ele representa um experimento concreto sobre como simulação, gamificação e IA podem ser usadas de forma responsável para apoiar o aprendizado em contextos logísticos complexos.
               </p>
             </div>
           </div>

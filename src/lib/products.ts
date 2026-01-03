@@ -22,7 +22,7 @@ export const products: Product[] = [
   },
   {
     name: 'WMS Academy',
-    description: 'Resolve a capacitação e treinamento em sistemas de gestão de armazéns, democratizando conhecimento especializado.',
+    description: 'Facilitador de onboarding com aprendizado gamificado para formação de consciência operacional em processos logísticos.',
     status: 'MVP'
   },
   {
