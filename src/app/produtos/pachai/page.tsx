@@ -321,7 +321,7 @@ export default function PachaiPage() {
                 Guardrails determinísticos são essenciais. Proteção da inteligência interna preserva a experiência e a segurança.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Estados contextuais > fluxos rígidos
+                Estados contextuais {'>'} fluxos rígidos
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Sistema de estados com inferência simples é mais efetivo que fluxos lineares complexos. Flexibilidade sem perda de controle.
