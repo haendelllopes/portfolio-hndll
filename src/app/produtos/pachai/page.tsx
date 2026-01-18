@@ -224,6 +224,16 @@ export default function PachaiPage() {
               <p className="text-lg text-gray-700 leading-relaxed">
                 Atualmente, o Pachai existe como produto funcional disponível.
               </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                <a 
+                  href="https://pachai.app/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-900 transition-colors underline decoration-gray-300 hover:decoration-gray-600"
+                >
+                  👉 https://pachai.app/
+                </a>
+              </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
                 A solução permite:
               </p>
