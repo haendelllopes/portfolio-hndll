@@ -25,19 +25,7 @@ export default function GradeAssistidaPage() {
               Suporte à decisão para coordenação pedagógica
             </p>
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mt-4">
-              GradeAssistida é um produto experimental de suporte à decisão para coordenação pedagógica.
-              Ele organiza modulação, regras pedagógicas e restrições humanas antes da geração da grade horária, reduzindo retrabalho e esforço cognitivo, sem substituir decisões humanas.
-            </p>
-            <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mt-4">
-              Protótipo em validação:{' '}
-              <a 
-                href="https://gradeassistida.lovable.app/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-700 hover:text-gray-900 transition-colors underline decoration-gray-300 hover:decoration-gray-600"
-              >
-                https://gradeassistida.lovable.app/
-              </a>
+              MVP funcional em formato experimental, voltado ao suporte à decisão para coordenação pedagógica.
             </p>
           </div>
         </div>
@@ -60,12 +48,12 @@ export default function GradeAssistidaPage() {
         </div>
       </section>
 
-      {/* Problema */}
+      {/* O Problema */}
       <section className="bg-[#f9fafb] pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
-              Problema
+              O Problema
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -86,30 +74,59 @@ export default function GradeAssistidaPage() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
+                A hipótese central do GradeAssistida é:
+              </p>
+              <p className="text-xl font-bold text-[#0a0a0a] leading-relaxed border-l-4 border-gray-300 pl-6 italic">
                 Se a modulação pedagógica e as restrições humanas forem estruturadas explicitamente antes da organização do tempo, e a IA atuar apenas como apoio explicativo, o coordenador reduz esforço cognitivo e retrabalho, mantendo controle total da decisão final.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O diferencial do produto não está em automação, mas em estruturação, explicação e apoio consciente.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Decisões de Produto */}
+      {/* Decisões-chave de escopo */}
       <section className="bg-[#f9fafb] pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
-              Decisões de Produto
+              Decisões-chave de escopo
             </h2>
             <div className="space-y-6">
-              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4">
-                <li>Produto de suporte à decisão, não automação</li>
-                <li>Modulação vem antes da grade</li>
-                <li>Disciplinas definidas por nível de ensino</li>
-                <li>Professor tratado como entidade única</li>
-                <li>Horário do professor como recurso mais restritivo</li>
-                <li>IA usada para organizar, validar e explicar — nunca para decidir</li>
-                <li>Escopo conscientemente limitado (não é sistema escolar completo)</li>
-              </ul>
+              <div>
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Produto de suporte à decisão, não automação
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  O GradeAssistida organiza modulação e restrições, mas não substitui a decisão final do coordenador pedagógico.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Modulação vem antes da grade
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  A estruturação pedagógica e as restrições humanas são definidas explicitamente antes da organização temporal.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  IA como copiloto explicativo
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  A IA atua para organizar, validar e explicar — nunca para decidir ou otimizar politicamente.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-xl font-semibold text-[#0a0a0a] mb-4 leading-tight">
+                  Escopo conscientemente limitado
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  O produto não é um sistema escolar completo, mas uma ferramenta focada na montagem da grade horária.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -143,24 +160,71 @@ export default function GradeAssistidaPage() {
         </div>
       </section>
 
-      {/* Uso de IA */}
+      {/* Uso de tecnologia e IA */}
+      <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
+              Uso de tecnologia e IA
+            </h2>
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O GradeAssistida utiliza inteligência artificial como copiloto cognitivo, com papel claramente delimitado.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                A IA:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>identifica conflitos na grade horária</li>
+                <li>explica por que um cenário não funciona</li>
+                <li>apoia ajustes conscientes mantendo o controle humano</li>
+              </ul>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                Foram aplicados limites claros para garantir que a IA:
+              </p>
+              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
+                <li>não decide pela coordenação pedagógica</li>
+                <li>não otimiza politicamente</li>
+                <li>não substitui o coordenador</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Solução construída (estado atual) */}
       <section className="bg-[#f9fafb] pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
-              Uso de IA
+              Solução construída (estado atual)
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                A IA atua como copiloto cognitivo:
+                O GradeAssistida existe hoje como um MVP funcional, utilizado como experimento aplicado, disponível em:
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                <a 
+                  href="https://gradeassistida.lovable.app/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-900 transition-colors underline decoration-gray-300 hover:decoration-gray-600"
+                >
+                  👉 https://gradeassistida.lovable.app/
+                </a>
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                Funcionalidades atuais:
               </p>
               <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4 mb-6">
-                <li>Identifica conflitos</li>
-                <li>Explica por que um cenário não funciona</li>
-                <li>Apoia ajustes conscientes</li>
+                <li>cadastro de turmas, disciplinas e professores</li>
+                <li>estruturação de modulação pedagógica</li>
+                <li>gestão de disponibilidade e padrões de horário</li>
+                <li>geração da grade horária com apoio de IA</li>
+                <li>visualização e exportação de grades (PDF e XLS)</li>
               </ul>
               <p className="text-lg text-gray-700 leading-relaxed">
-                A IA não decide, não otimiza politicamente e não substitui o coordenador.
+                O produto não substitui a coordenação pedagógica, mas apoia o processo de montagem da grade horária com estruturação e explicação.
               </p>
             </div>
           </div>
@@ -210,21 +274,29 @@ export default function GradeAssistidaPage() {
         </div>
       </section>
 
-      {/* Limitações */}
+      {/* Limitações e riscos assumidos */}
       <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
-              Limitações
+              Limitações e riscos assumidos
             </h2>
             <div className="space-y-6">
-              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4">
-                <li>Produto contextual</li>
-                <li>Em validação com uso real</li>
-                <li>Não cobre todos os cenários escolares</li>
-                <li>Pode exigir ajustes manuais finais</li>
-                <li>Não foi projetado para escalar institucionalmente</li>
-              </ul>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O produto é contextual e pode exigir ajustes manuais finais
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Em validação com uso real, pode não cobrir todos os cenários escolares
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                A escalação institucional exigiria adaptações significativas
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O MVP prioriza foco e estruturação, abrindo mão de funcionalidades mais complexas
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Esses limites são conhecidos e assumidos conscientemente.
+              </p>
             </div>
           </div>
         </div>
@@ -255,24 +327,8 @@ export default function GradeAssistidaPage() {
         </div>
       </section>
 
-      {/* Status Atual */}
-      <section className="bg-white pt-12 pb-16 md:pt-16 md:pb-20">
-        <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
-              Status Atual
-            </h2>
-            <div className="space-y-6">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                MVP funcional em validação, utilizado como experimento aplicado e estudo contínuo de produto.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Papel e Responsabilidade */}
-      <section className="bg-[#f9fafb] py-24 md:py-32">
+      <section className="bg-white py-24 md:py-32">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
@@ -280,29 +336,26 @@ export default function GradeAssistidaPage() {
             </h2>
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Projeto concebido, estruturado e implementado integralmente por Haendell Lopes, incluindo:
+                Projeto concebido, estruturado e implementado integralmente por Haendell Lopes, incluindo descoberta do problema, definição de escopo, decisões de produto, orquestração do uso de IA, implementação via vibe coding e curadoria do case.
               </p>
-              <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-2 ml-4">
-                <li>Descoberta do problema</li>
-                <li>Definição de escopo</li>
-                <li>Decisões de produto</li>
-                <li>Orquestração do uso de IA</li>
-                <li>Implementação via vibe coding</li>
-                <li>Curadoria do case</li>
-              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Nota no Rodapé */}
-      <section className="bg-white py-24 md:py-32">
+      {/* Encerramento */}
+      <section className="bg-[#f9fafb] py-24 md:py-32">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
-            <div className="border-t border-gray-200 pt-8">
-              <p className="text-base text-gray-600 leading-relaxed italic">
-                Este assistente existe para apoiar decisões humanas.
-                A decisão final é sempre do coordenador pedagógico.
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a] mb-6 leading-tight">
+              Encerramento
+            </h2>
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                O GradeAssistida é um produto de apoio e estruturação, não de automação.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Ele representa um exercício consciente de construção de produto, equilibrando tecnologia, decisão humana e contexto pedagógico, com foco em reduzir retrabalho e esforço cognitivo sem substituir o coordenador.
               </p>
             </div>
           </div>
