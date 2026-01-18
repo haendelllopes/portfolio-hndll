@@ -34,6 +34,11 @@ export const products: Product[] = [
     name: 'Gestaelo',
     description: 'Acompanhamento digital da gestação com foco em organização e tranquilidade.',
     status: 'MVP'
+  },
+  {
+    name: 'GradeAssistida',
+    description: 'Ferramenta de suporte à decisão para coordenação pedagógica, criada a partir de um problema real em escola pública. Estrutura modulação, regras e restrições humanas antes da montagem da grade horária, usando IA como apoio explicativo.',
+    status: 'MVP em validação'
   }
 ]
 

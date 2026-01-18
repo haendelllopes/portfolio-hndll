@@ -9,6 +9,7 @@ export default function ProductGrid() {
       'Retroelo': '/produtos/retroelo',
       'WMS Twin Digital': '/produtos/wms-twin-digital',
       'Gestaelo': '/produtos/gestaelo',
+      'GradeAssistida': '/produtos/gradeassistida',
       'WMS Academy': '/produtos/wms-academy'
     }
     return routes[productName] || null
