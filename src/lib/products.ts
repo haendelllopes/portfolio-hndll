@@ -6,6 +6,11 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    name: 'Pachai',
+    description: 'Par cognitivo para decisões conscientes de produto, com contexto persistente e vereditos explícitos.',
+    status: 'Em validação'
+  },
+  {
     name: 'Navigator',
     description: 'Onboarding estruturado para acelerar autonomia e reduzir incertezas no primeiro dia de trabalho.',
     status: 'MVP'

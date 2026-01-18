@@ -4,6 +4,7 @@ import products from '@/lib/products'
 export default function ProductGrid() {
   const getProductRoute = (productName: string): string | null => {
     const routes: Record<string, string> = {
+      'Pachai': '/produtos/pachai',
       'Navigator': '/produtos/navigator',
       'Retroelo': '/produtos/retroelo',
       'WMS Twin Digital': '/produtos/wms-twin-digital',
